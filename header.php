@@ -7,7 +7,12 @@
 </head>
 <header>
   <div><a href="<?php bloginfo('home'); ?>"><p>Theme<strong>One</srong></p></a></div>
-  <ul>
-    <?php wp_nav_menu('main-menu'); ?>
-  </ul>
+  <?php 
+    wp_nav_menu($args = array(
+      'theme_location' => "main-menu",
+      'container' => "nav",
+      'menu_class' => "menu menu--main"
+    ));
+
+  ?>
 </header>

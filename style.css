@@ -3,3 +3,13 @@
   Author: Omar Ochoa
   Version: 0.0
 */
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+
+.menu li {
+  padding: 5px;
+}
