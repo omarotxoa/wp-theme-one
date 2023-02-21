@@ -6,7 +6,7 @@
   <title><?php the_title(); ?></title>
 </head>
 <header class="box">
-  <div><a href="<?php bloginfo('home'); ?>"><p>Theme<strong>One</srong></p></a></div>
+  <div><a href="<?php bloginfo('home'); ?>" class="logo"><p>Theme<strong>One</srong></p></a></div>
   <?php 
     wp_nav_menu($args = array(
       'theme_location' => "main-menu",

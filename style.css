@@ -3,11 +3,21 @@
   Author: Omar Ochoa
   Version: 0.0
 */
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
+
+
+/******************************************* LAYOUTS **/
+.box {
+  padding: 1em;
+}
+
+
+/******************************************* HEADER **/
 
 header {
   display: flex;
@@ -25,6 +35,12 @@ header {
   padding: 0 5px;
 }
 
-.box {
-  padding: 1em;
+
+/******************************************* LOGO **/
+.logo {
+  font-size: x-large;
+}
+
+.logo:visited {
+  color: black;
 }
