@@ -5,7 +5,7 @@
   <?php wp_head(); ?>
   <title><?php the_title(); ?></title>
 </head>
-<header>
+<header class="box">
   <div><a href="<?php bloginfo('home'); ?>"><p>Theme<strong>One</srong></p></a></div>
   <?php 
     wp_nav_menu($args = array(

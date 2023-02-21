@@ -24,3 +24,7 @@ header {
 .menu li {
   padding: 0 5px;
 }
+
+.box {
+  padding: 1em;
+}
