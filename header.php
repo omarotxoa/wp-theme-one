@@ -8,9 +8,6 @@
 <header>
   <div><a href="<?php bloginfo('home'); ?>"><p>Theme<strong>One</srong></p></a></div>
   <ul>
-    <li><a href="#">Page One</a></li>
-    <li><a href="#">Page Two</a></li>
-    <li><a href="#">Page Three</a></li>
-    <li><a href="#">Page Four</a></li>
+    <?php wp_nav_menu('main-menu'); ?>
   </ul>
 </header>
