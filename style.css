@@ -16,6 +16,13 @@
   padding: 1em;
 }
 
+.cluster {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .5em;
+}
+
 
 /******************************************* HEADER **/
 
@@ -30,11 +37,6 @@ header {
   display: flex;
   padding: 0;
 }
-
-.menu li {
-  padding: 0 5px;
-}
-
 
 /******************************************* LOGO **/
 .logo {

@@ -5,13 +5,13 @@
   <?php wp_head(); ?>
   <title><?php the_title(); ?></title>
 </head>
-<header class="box">
-  <div><a href="<?php bloginfo('home'); ?>" class="logo"><p>Theme<strong>One</srong></p></a></div>
+<header class="box cluster">
+  <div><a href="<?php bloginfo('home'); ?>" class="logo"><p>Theme<strong>One</strong></p></a></div>
   <?php 
     wp_nav_menu($args = array(
       'theme_location' => "main-menu",
       'container' => "nav",
-      'menu_class' => "menu menu--main"
+      'menu_class' => "cluster menu menu--main"
     ));
 
   ?>
