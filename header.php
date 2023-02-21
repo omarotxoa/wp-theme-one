@@ -13,6 +13,5 @@
       'container' => "nav",
       'menu_class' => "cluster menu menu--main"
     ));
-
   ?>
 </header>
