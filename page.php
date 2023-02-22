@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main>
+<main class="box stack">
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <h1>Page: <?php the_title(); ?></h1>
     <p><?php the_content(); ?></p>
