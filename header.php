@@ -6,7 +6,7 @@
   <title><?php the_title(); ?></title>
 </head>
 <header class="box cluster">
-  <div><a href="<?php bloginfo('home'); ?>" class="logo"><p>Theme<strong>One</strong></p></a></div>
+  <div><a href="<?php bloginfo('home'); ?>" class="logo"><p><span>Theme</span>One</p></a></div>
   <?php 
     wp_nav_menu($args = array(
       'theme_location' => "main-menu",
