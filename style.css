@@ -6,6 +6,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400&family=Karla:wght@400;800&display=swap');
 
+:root {
+  --black: #0A0707;
+  --orange: #C4591D;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -14,6 +19,15 @@
 
 html {
   font-family: 'Inconsolata', monospace;
+  color: white;
+}
+
+body {
+  background-color: var(--black);
+}
+
+a {
+  color: white;
 }
 
 /******************************************* LAYOUTS **/
@@ -66,10 +80,7 @@ header {
 
 .logo span {
   font-weight: 800;
-}
-
-.logo:visited {
-  color: black;
+  color: var(--orange);
 }
 
 /******************************************* BODY / MAIN CONTENT**/
