@@ -60,6 +60,12 @@ header {
 /******************************************* LOGO **/
 .logo {
   font-size: x-large;
+  font-family: 'Karla', sans-serif;
+  text-decoration: none;
+}
+
+.logo span {
+  font-weight: 800;
 }
 
 .logo:visited {
