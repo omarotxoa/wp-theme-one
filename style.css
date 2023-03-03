@@ -73,7 +73,8 @@ main {
 }
 
 @media (min-width: 1024px) {
-  main {
+  main,
+  header {
     width: 800px;
     margin: 0 auto;
   }
